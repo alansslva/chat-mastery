@@ -31,47 +31,47 @@ O teste pode ser iniciado através do servidor nodejs local da maquina atravéz 
 ### Docker Local
 Para subir o ambiente diretamente através de uma instância do docker local, pode ser utilizado o comando
  ``` docker
- docker-compose up --build
+ docker-compose up - build
 ```
 
 # Funcionamento da Aplicação
 ### Primeiro Acesso
 - No primeiro acesso ao sistema realizado por um novo navegador que não possua a estrutura de itens armazenada em seu localStorage, a propria aplicação criará
--- Estrutura de chats no localstorage, ja carregado com o chat padrão (Geral), onde todos os usuarios podem interagir uns coms os outros
+-  Estrutura de chats no localstorage, ja carregado com o chat padrão (Geral), onde todos os usuarios podem interagir uns coms os outros
 
 - Após carregamento completo do sistema, o componente welcome.tsx, é responsável por controlar o fluxo de modais iniciais para onboarding do usuario, esse fluxo contempla 3 popups distintas
--- Modal de apresentação do sistema 
+- Modal de apresentação do sistema 
 ![Modal de Apresentação](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-apresentacao.png)
--- Modal para seleção de tipo de login
+- Modal para seleção de tipo de login
 ![Modal de Seleção de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-tipo-login.png)
--- Modal de Login
+- Modal de Login
 ![Modal de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-login.png)
--- Modal de Registro
+- Modal de Registro
 ![Modal de Registro](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-register.png)
 
 - Após seleção ou criação de um usuário válido temos acesso a tela principal da aplicação
 - ![Tela do sistema geral](https://chat-seven-amber-17.vercel.app/img/screenshots/system.png)
 
 - Painel Lateral Esquerdo
---Campo para filtro de chats (onde pode-se filtrar um chat pelo nome do mesmo)
---Lista dos chats ativos, o chat em foco aparecerá em vermelho e o restante em branco
---Chats que possuem notificações pendentes são exibidos em laranja
+- Campo para filtro de chats (onde pode-se filtrar um chat pelo nome do mesmo)
+- Lista dos chats ativos, o chat em foco aparecerá em vermelho e o restante em branco
+- Chats que possuem notificações pendentes são exibidos em laranja
 ![Exeplo de Chat com Notificação](https://chat-seven-amber-17.vercel.app/img/screenshots/chat-notify.png)
 
 - Painel Central
---No topo do painel central temos o nome do chat em foco
---A area central mostra as mensagens enviadas naquele Chat
---A area do rodapé possuí campo para escrever mensagem, selecionar emojis e enviar mensagens (também funciona com Enter)
+- No topo do painel central temos o nome do chat em foco
+- A area central mostra as mensagens enviadas naquele Chat
+- A area do rodapé possuí campo para escrever mensagem, selecionar emojis e enviar mensagens (também funciona com Enter)
 ![Modal de seleção de Emojis](https://chat-seven-amber-17.vercel.app/img/screenshots/emoji-select.png)
 
 - Painel Lateral Direito
--- Neste painel são mostrados os usuários que estão naquele Chat
+-  Neste painel são mostrados os usuários que estão naquele Chat
 
 - Notificações
 - Há notificações disponíveis para os eventos
--- Recebimento de novas mensagens
--- Formulário incompleto ao cadastrar usuário
--- Mensagem sem conteúdo
+-  Recebimento de novas mensagens
+-  Formulário incompleto ao cadastrar usuário
+-  Mensagem sem conteúdo
 ![Notificação de Erro](https://chat-seven-amber-17.vercel.app/img/screenshots/notify-error.png)
 ![Notificação de Mensagem](https://chat-seven-amber-17.vercel.app/img/screenshots/notify.png)
 
