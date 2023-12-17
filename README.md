@@ -41,12 +41,16 @@ Para subir o ambiente diretamente através de uma instância do docker local, po
 
 - Após carregamento completo do sistema, o componente welcome.tsx, é responsável por controlar o fluxo de modais iniciais para onboarding do usuario, esse fluxo contempla 3 popups distintas
 - Modal de apresentação do sistema 
-[Modal de Apresentação](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-apresentacao.png)
+
+![Modal de Apresentação](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-apresentacao.png)
 - Modal para seleção de tipo de login
+
 ![Modal de Seleção de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-tipo-login.png)
 - Modal de Login
+
 ![Modal de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-login.png)
 - Modal de Registro
+
 ![Modal de Registro](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-register.png)
 
 - Após seleção ou criação de um usuário válido temos acesso a tela principal da aplicação
