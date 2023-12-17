@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.avatar-item-selected  {
+    cursor: pointer;
+    border: 7px solid red;
+}
+
+.nav-chat.active {
+    color: #fff !important;
+    background-color: #DC3545 !important;
+}
+
+.nav-chat{
+    color: #fff !important;
+    background: none !important;
+}
+
+/* 
+.mb-400 {
+    padding-bottom: 400px;
+  } */
+
+  -webkit-scrollbar {
+    width: 0; /* Esconde a barra de rolagem no Safari */
+  }
+
+
+
+  /* Estilos para ocultar a barra de rolagem em navegadores baseados em WebKit */
+  .chat-content::-webkit-scrollbar,
+  .card-chat-list::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    width: 0em;
+  }
+
+  .chat-content::-webkit-scrollbar-track,
+  .card-chat-list::-webkit-scrollbar-track,
+  body::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .chat-content::-webkit-scrollbar-track-piece,
+  .card-chat-list::-webkit-scrollbar-track-piece,
+  body::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+  }
+
+
+
+  .chat-content::-webkit-scrollbar-thumb,
+  .card-chat-list::-webkit-scrollbar-thumb,
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+
+  /* Estilos para ocultar a barra de rolagem em navegadores que suportam scrollbar-width */
+  .chat-content {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+
+  .card-chat-list{
+    border-radius: 0% !important;
+  }
+
+  .chat-body{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .chat-body-header{
+    position: sticky;
+    top: 0px;
+    height: 50px;
+  }
+
+  .chat-content{
+    overflow: scroll;
+    background: url('https://www.shutterstock.com/image-vector/social-media-sketch-vector-seamless-600nw-1660950727.jpg');
+  }
+
+  /* .chat-message-card{
+    border-radius: 5% 5% 5% 5% !important;
+
+  } */
+
+  .chat-footer{
+    padding: 20px;
+  }
+
+  .chat-button{
+    cursor: pointer;
+  }
+
+  /* Para dispositivos desktop */
+@media (min-width: 992px) {
+  .desktop-height {
+    height: 100vh; /* Defina a altura desejada para dispositivos desktop aqui */
+  }
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 991px) {
+  .desktop-height {
+    height: auto;
+  }
+}
