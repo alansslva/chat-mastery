@@ -20,7 +20,7 @@
 
 # Ambientes
 ### Url Publica
-O teste foi publicado em uma url para maior facilidade na utilização e pode ser acessado através do link:  https://chat-seven-amber-17.vercel.app/
+O teste foi publicado em uma url para maior facilidade na utilização e pode ser acessado através do link:  https://chat-mastery.vercel.app/
 
 ### NodeJS Local
 O teste pode ser iniciado através do servidor nodejs local da maquina atravéz do comando
@@ -42,33 +42,33 @@ Para subir o ambiente diretamente através de uma instância do docker local, po
 - Após carregamento completo do sistema, o componente welcome.tsx, é responsável por controlar o fluxo de modais iniciais para onboarding do usuario, esse fluxo contempla 3 popups distintas
 - Modal de apresentação do sistema 
 
-![Modal de Apresentação](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-apresentacao.png)
+![Modal de Apresentação](https://chat-mastery.vercel.app/img/screenshots/modal-apresentacao.png)
 - Modal para seleção de tipo de login
 
-![Modal de Seleção de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-tipo-login.png)
+![Modal de Seleção de Login](https://chat-mastery.vercel.app/img/screenshots/modal-tipo-login.png)
 - Modal de Login
 
-![Modal de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-login.png)
+![Modal de Login](https://chat-mastery.vercel.app/img/screenshots/modal-login.png)
 - Modal de Registro
 
-![Modal de Registro](https://chat-seven-amber-17.vercel.app/img/screenshots/modal-register.png)
+![Modal de Registro](https://chat-mastery.vercel.app/img/screenshots/modal-register.png)
 
 - Após seleção ou criação de um usuário válido temos acesso a tela principal da aplicação
-- ![Tela do sistema geral](https://chat-seven-amber-17.vercel.app/img/screenshots/system.png)
+- ![Tela do sistema geral](https://chat-mastery.vercel.app/img/screenshots/system.png)
 
 - Painel Lateral Esquerdo
 - Campo para filtro de chats (onde pode-se filtrar um chat pelo nome do mesmo)
 - Lista dos chats ativos, o chat em foco aparecerá em vermelho e o restante em branco
 - Chats que possuem notificações pendentes são exibidos em laranja
 
-![Exeplo de Chat com Notificação](https://chat-seven-amber-17.vercel.app/img/screenshots/chat-notify.png)
+![Exeplo de Chat com Notificação](https://chat-mastery.vercel.app/img/screenshots/chat-notify.png)
 
 - Painel Central
 - No topo do painel central temos o nome do chat em foco
 - A area central mostra as mensagens enviadas naquele Chat
 - A area do rodapé possuí campo para escrever mensagem, selecionar emojis e enviar mensagens (também funciona com Enter)
 
-![Modal de seleção de Emojis](https://chat-seven-amber-17.vercel.app/img/screenshots/emoji-select.png)
+![Modal de seleção de Emojis](https://chat-mastery.vercel.app/img/screenshots/emoji-select.png)
 
 - Painel Lateral Direito
 -  Neste painel são mostrados os usuários que estão naquele Chat
@@ -79,9 +79,9 @@ Para subir o ambiente diretamente através de uma instância do docker local, po
 -  Formulário incompleto ao cadastrar usuário
 -  Mensagem sem conteúdo
 
-![Notificação de Erro](https://chat-seven-amber-17.vercel.app/img/screenshots/notify-error.png)
+![Notificação de Erro](https://chat-mastery.vercel.app/img/screenshots/notify-error.png)
 
-![Notificação de Mensagem](https://chat-seven-amber-17.vercel.app/img/screenshots/notify.png)
+![Notificação de Mensagem](https://chat-mastery.vercel.app/img/screenshots/notify.png)
 
 # Controle do usuário autenticado
 O controle para gerenciamento do usuário autenticado é todo feito através da variável loggedUser, que é alimentada pelos hooks useState e useEffect, dessa forma mantendo apenas uma sessão ativa por aba
@@ -93,11 +93,11 @@ O serviço responsável por enviar mensagens e registrar notificações a todos 
 # Fluxos da Aplicação
 Login
 
-![Fluxo de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/fluxo-login.png)
+![Fluxo de Login](https://chat-mastery.vercel.app/img/screenshots/fluxo-login.png)
 
 Mensagem
 
-![Fluxo de Mensagem](https://chat-seven-amber-17.vercel.app/img/screenshots/fluxo-mensagem.png)
+![Fluxo de Mensagem](https://chat-mastery.vercel.app/img/screenshots/fluxo-mensagem.png)
 
 
 # Explicação geral
