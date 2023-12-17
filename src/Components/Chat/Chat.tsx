@@ -47,6 +47,8 @@ export default function Chat(
   const sendMessage = (chat_id : number, message: string) => {
     if(message === '') {
       NotifyService.send('Mensagem não pode ser vazia', 'error')
+      return;
+    }
     const newMessage = MessageFactory.createMessage(loggedUser, message, 'text')
     const chatToAddMessage = chatProvider.getService().find(chat_id)
     if (chatToAddMessage) {
