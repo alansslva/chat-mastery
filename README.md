@@ -60,12 +60,14 @@ Para subir o ambiente diretamente através de uma instância do docker local, po
 - Campo para filtro de chats (onde pode-se filtrar um chat pelo nome do mesmo)
 - Lista dos chats ativos, o chat em foco aparecerá em vermelho e o restante em branco
 - Chats que possuem notificações pendentes são exibidos em laranja
+
 ![Exeplo de Chat com Notificação](https://chat-seven-amber-17.vercel.app/img/screenshots/chat-notify.png)
 
 - Painel Central
 - No topo do painel central temos o nome do chat em foco
 - A area central mostra as mensagens enviadas naquele Chat
 - A area do rodapé possuí campo para escrever mensagem, selecionar emojis e enviar mensagens (também funciona com Enter)
+
 ![Modal de seleção de Emojis](https://chat-seven-amber-17.vercel.app/img/screenshots/emoji-select.png)
 
 - Painel Lateral Direito
@@ -76,7 +78,9 @@ Para subir o ambiente diretamente através de uma instância do docker local, po
 -  Recebimento de novas mensagens
 -  Formulário incompleto ao cadastrar usuário
 -  Mensagem sem conteúdo
+
 ![Notificação de Erro](https://chat-seven-amber-17.vercel.app/img/screenshots/notify-error.png)
+
 ![Notificação de Mensagem](https://chat-seven-amber-17.vercel.app/img/screenshots/notify.png)
 
 # Controle do usuário autenticado
@@ -88,9 +92,13 @@ O serviço responsável por enviar mensagens e registrar notificações a todos 
 
 # Fluxos da Aplicação
 Login
+
 ![Fluxo de Login](https://chat-seven-amber-17.vercel.app/img/screenshots/fluxo-login.png)
+
 Mensagem
+
 ![Fluxo de Mensagem](https://chat-seven-amber-17.vercel.app/img/screenshots/fluxo-mensagem.png)
+
 
 # Explicação geral
 Explicação geral, orietada ao fluxo do usuário, para esclarecimento de questões tecnicas e explicação da construção
